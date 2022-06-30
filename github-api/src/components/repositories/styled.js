@@ -40,6 +40,13 @@ WrapperTabList.tabsRole = "Tab";
 
 export const WrapperTabPanel = styled(TabPanel)`
     padding: 8px;
+    border: 1px solid "#ccc";
+    box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.5);
+    display: none;
+
+    &.is-selected {
+        display: block;
+    }
 `;
 
 WrapperTabList.tabsRole = "TabPanel";
