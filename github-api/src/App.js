@@ -13,8 +13,8 @@ const App = () => {
         <>
           {githubState.loading ? (
             <p>Loading</p>
-          ) : (
-            <>
+            ) : (
+              <>
               <Profile />
               <Repositories />
             </>
@@ -22,10 +22,11 @@ const App = () => {
         </>
       ) : (
         <NoSearch />
-      )}
+        )}
     </Layout>
   );
 };
 
 export default App;
+
 
