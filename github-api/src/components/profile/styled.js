@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+  color: #ddd;
+  margin-top: 25px;
   display: flex;
   align-items: flex-start;
 `;
@@ -44,7 +46,7 @@ export const WrapperUserGeneric = styled.div`
   }
   a {
     font-size: 18px;
-    color: blue;
+    color: rgb(221, 120, 48);
     font-weight: bold;
   }
 `;
@@ -52,5 +54,6 @@ export const WrapperUserGeneric = styled.div`
 export const WrapperImage = styled.img`
   border-radius: 50%;
   width: 200px;
-  margin: 8px;
+  border: 3px solid rgb(95, 221, 253);
+  box-shadow: 0px 0px 4px 4px rgba(95, 21, 253, 0.616);
 `;

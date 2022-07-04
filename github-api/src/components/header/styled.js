@@ -8,7 +8,9 @@ export const Wrapper = styled.div`
     padding: 4px;
     
     input {
-        border: 1px solid #ccc;
+        color: #ddd;
+        border: 1px solid rgb(95, 221, 253);
+        box-shadow: 1px 1px 5px 5px rgb(95, 21, 253);
         border-radius: 8px;
         width: 100%;
         height: 44px;
@@ -16,8 +18,9 @@ export const Wrapper = styled.div`
         font-weight: 500;
     }
 
+       
     button {
-        background-color: #225ed8;
+        background-color: rgb(95, 21, 253);
         padding: 8px 16px;
         margin: 0 8px;
         border-radius: 8px;
@@ -25,8 +28,7 @@ export const Wrapper = styled.div`
         font-sise: 16px;
 
         &:hover {
-            background-color: #2c5282;
-            box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 2px 2px rgba(95, 221, 253, 0.616);
         }
 
         span {
